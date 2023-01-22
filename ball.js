@@ -40,6 +40,6 @@ ball2.style.top = positionY + "px";
     positionY === Ymin
   ) {
     reverse = !reverse;
-setInterval(moveBall, (xyz = xyz - 100);
+setInterval(moveBall, (xyz = xyz - 100));
   }
 }

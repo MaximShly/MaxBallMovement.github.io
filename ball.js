@@ -1,7 +1,7 @@
 //Set global variable that would contain the position, velocity and the html element "ball"
 var positionX = 0;
 var positionY = 0;
-var velocity = 100;
+var velocity = 50;
 var reverse = false;
 var ball = document.getElementById("ball");
 var ball2 = document.getElementById("ball2");
@@ -17,6 +17,7 @@ function moveBall() {
   var Ymax = 300;
 
   if (reverse) {
+velocity = velocity * 2;
     positionX = positionX - velocity;
     positionY = positionY - velocity;
     ball.style.left = positionX + "px";

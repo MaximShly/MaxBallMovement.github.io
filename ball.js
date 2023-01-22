@@ -24,7 +24,6 @@ function moveBall() {
     ball.style.top = positionY + "px";
 ball2.style.left = positionX + "px";
 ball2.style.top = positionY + "px";
-velocity = velocity + 50;
   } else {
     positionX = positionX + velocity;
     positionY = positionY + velocity;

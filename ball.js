@@ -17,13 +17,14 @@ function moveBall() {
   var Ymax = 300;
 
   if (reverse) {
-velocity = velocity + 50;
+
     positionX = positionX - velocity;
     positionY = positionY - velocity;
     ball.style.left = positionX + "px";
     ball.style.top = positionY + "px";
 ball2.style.left = positionX + "px";
 ball2.style.top = positionY + "px";
+velocity = velocity + 50;
   } else {
     positionX = positionX + velocity;
     positionY = positionY + velocity;

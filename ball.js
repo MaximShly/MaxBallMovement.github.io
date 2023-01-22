@@ -1,11 +1,11 @@
 //Set global variable that would contain the position, velocity and the html element "ball"
 var positionX = 0;
 var positionY = 0;
-var velocity = 50;
+var velocity = 100;
 var reverse = false;
 var ball = document.getElementById("ball");
 var ball2 = document.getElementById("ball2");
-
+var xyz = 1000;
 //write a function that can change the position of the html element "ball"
 function moveBall() {
   // two x-axis coordinates
@@ -40,8 +40,8 @@ ball2.style.top = positionY + "px";
     positionY === Ymin
   ) {
     reverse = !reverse;
-velocity = velocity + 50;
+setInterval(moveBall, xyz - 100;
   }
 }
 
-setInterval(moveBall, 1000);
+setInterval(moveBall, xyz);

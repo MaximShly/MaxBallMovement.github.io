@@ -4,6 +4,7 @@ var positionY = 0;
 var velocity = 100;
 var reverse = false;
 var ball = document.getElementById("ball");
+var ball2 = document.getElementById("ball2");
 
 //write a function that can change the position of the html element "ball"
 function moveBall() {

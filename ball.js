@@ -21,11 +21,15 @@ function moveBall() {
     positionY = positionY - velocity;
     ball.style.left = positionX + "px";
     ball.style.top = positionY + "px";
+ball2.style.left = positionX + "px";
+ball2.style.top = positionY + "px";
   } else {
     positionX = positionX + velocity;
     positionY = positionY + velocity;
     ball.style.left = positionX + "px";
     ball.style.top = positionY + "px";
+ball2.style.left = positionX + "px";
+ball2.style.top = positionY + "px";
   }
 
   if (

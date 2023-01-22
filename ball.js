@@ -40,6 +40,7 @@ ball2.style.top = positionY + "px";
     positionY === Ymin
   ) {
     reverse = !reverse;
+velocity = velocity + 50;
   }
 }
 

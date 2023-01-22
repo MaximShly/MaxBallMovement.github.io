@@ -17,7 +17,7 @@ function moveBall() {
   var Ymax = 300;
 
   if (reverse) {
-velocity = velocity * 2;
+velocity = velocity + 50;
     positionX = positionX - velocity;
     positionY = positionY - velocity;
     ball.style.left = positionX + "px";

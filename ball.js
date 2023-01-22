@@ -43,3 +43,4 @@ ball2.style.top = positionY + "px";
 setInterval(moveBall, (xyz = xyz - 100));
   }
 }
+setInterval(moveBall, 1000);
